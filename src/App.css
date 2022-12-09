@@ -1,0 +1,144 @@
+
+h2{
+  margin: 0 !important;
+}
+body{
+  background: linear-gradient(45deg,rgb(135, 18, 212),rgb(17, 150, 184));
+  min-height: 100vh;
+}
+.pokimon-section{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 2em;
+  gap: 20px;
+}
+
+.pokimon-data-store{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.pokimon-data h1{
+  text-align: center;
+}
+.pokimon{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0.5em;
+}
+.pokimon label{
+  color: rgb(155, 247, 224);
+}
+.pokimon input:hover,.pokimon textarea:hover{
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 15px rgb(37, 35, 35);
+}
+.pokimon .input-text,.pokimon textarea{
+  padding: 0.4em;
+  outline: none;
+  border: none;
+}
+
+.btn{
+  padding-top: 0.5em;
+  text-align: center !important;
+}
+.btn button{
+  padding: 0.5em 1em;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: rgb(209, 9, 149);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn button:hover{
+  background:linear-gradient(45deg,rgb(207, 26, 114),rgb(16, 89, 173));
+}
+.pokimon-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.pokimon-card{
+  margin: 0.3em;
+  width: calc(1000px/5);
+  background: linear-gradient(45deg,rgb(50 135 143 / 79%),rgb(179 142 179 / 43%));
+  padding: 2em;
+  border: 1px solid white;
+  box-shadow: 5px 5px 15px rgba(211, 208, 208, 0.205);
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+
+}
+.pokimon-card:hover{
+  transform: scale(1.1);
+  background: linear-gradient(45deg,rgb(104, 204, 211),rgb(91, 28, 192));
+  transition: all 0.3s ease-in-out;
+
+}
+.name h2{
+  color: rgb(237, 237, 238);
+  font-size: 28px;
+  word-wrap: break-word;
+}
+.breed p{
+  color: white;
+  font-size: 18px;
+  word-wrap: break-word;
+
+}
+.breed p span{
+  margin-right: 0.5em;
+  color: black;
+}
+.dis p{
+  margin: 0.3em 0;
+  color: white;
+  word-wrap: break-word;
+
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5em;
+}
+
+.bottom .edit{
+  color: rgb(20, 133, 133);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  padding: 0.2em 0.6em;
+}
+.bottom .edit:hover{
+  background:linear-gradient(45deg,rgb(37, 170, 126),rgb(16, 89, 173));
+  color: white;
+}
+.bottom .delete{
+  color: rgb(207, 26, 114);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  padding: 0.2em 0.6em;
+}
+.bottom .delete:hover{
+  background:linear-gradient(45deg,rgb(207, 26, 114),rgb(16, 89, 173));
+  color: white;
+}
