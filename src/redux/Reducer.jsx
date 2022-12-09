@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = [
-    { id: "1", name: "Pikachu", power: "Electro Ball", dis: "pikachu is the best pokimon" },
+    
 ];
 
 const slice = createSlice({
